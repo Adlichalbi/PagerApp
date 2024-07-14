@@ -1,0 +1,125 @@
+/*COLORS 
+RGB: (67, 69, 68) - Dark grey
+RGB: (246, 247, 246) - Very light grey
+RGB: (158, 192, 176) - Light green
+RGB: (217, 218, 216) - Light grey
+RGB: (189, 73, 41) - Reddish-brown
+RGB: (59, 154, 120) - Green
+RGB: (40, 48, 50) - Dark grey/black
+RGB: (15, 11, 7) - Very dark brown
+RGB: (254, 254, 254) - White
+RGB: (100, 107, 105) - Grey
+*/
+body,
+html {
+  background-color: rgb(217, 218, 216);
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.main-container {
+  background-color: white;
+  height: 70vh;
+  width: 51.3vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  background-color: white;
+  height: 100%;
+  width: 50vh;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(217, 218, 216);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pager {
+  background-color: rgb(40, 48, 50);
+  width: 45vh;
+  height: 12vh;
+  text-align: center;
+  color: rgb(254, 254, 254);
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -20px;
+}
+.mess_recev {
+  background-color: rgb(158, 192, 176);
+  margin-top: 1px;
+  margin-bottom: 10px;
+  width: 40vh;
+  height: 20vh;
+  text-align: center;
+  padding-top: 20px;
+  color: black;
+}
+.phone {
+  background-color: rgb(217, 218, 216);
+  width: 45vh;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mess_to_send {
+  background-color: rgb(67, 69, 68);
+  color: rgb(254, 254, 254);
+
+  font-size: large;
+  margin-top: -10px;
+  margin-bottom: 0px;
+  width: 40vh;
+  height: 20vh;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.pho {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  margin-top: 1px;
+}
+.numbers-container {
+  display: grid;
+  grid-template-columns: 10vh 10vh 10vh;
+  gap: 20px;
+}
+.num {
+  background-color: rgb(254, 254, 254);
+  height: 2vh;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.reset {
+  background-color: rgb(189, 73, 41);
+  color: white;
+  width: 34.5vh;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.send {
+  background-color: rgb(59, 154, 120);
+  width: 34.5vh;
+  font-weight: bold;
+}
+button {
+  cursor: pointer;
+}

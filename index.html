@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pager</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container">
+        <div class="pager">
+          Pager
+          <p class="mess_recev" id="message_recev"></p>
+        </div>
+        <div class="phone">
+          <p class="pho">Phone</p>
+          <p class="mess_to_send" id="message_send"></p>
+          <div class="numbers-container">
+            <p class="num" onclick="addChar('1')">1</p>
+            <p class="num" onclick="addChar('2')">2</p>
+            <p class="num" onclick="addChar('3')">3</p>
+            <p class="num" onclick="addChar('4')">4</p>
+            <p class="num" onclick="addChar('5')">5</p>
+            <p class="num" onclick="addChar('6')">6</p>
+            <p class="num" onclick="addChar('7')">7</p>
+            <p class="num" onclick="addChar('8')">8</p>
+            <p class="num" onclick="addChar('9')">9</p>
+            <p class="num" onclick="addChar('*')">*</p>
+            <p class="num" onclick="addChar('0')">0</p>
+            <p class="num fa-solid fa-minus" onclick="removeLastChar()"></p>
+          </div>
+          <button class="reset" onclick="reset()">RESET</button>
+          <button class="send" onclick="send()">SEND</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
